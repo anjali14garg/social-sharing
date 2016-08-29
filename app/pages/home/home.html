@@ -1,0 +1,10 @@
+<ion-navbar *navbar>
+    <ion-title>
+        Home
+    </ion-title>
+</ion-navbar>
+ 
+<ion-content class="home">
+    <button default (click)="share('Hello World', 'Attention', null, 'https://www.thepolyglotdeveloper.com')">Share</button>
+    <button default (click)="shareViaEmail('Hello World', null, 'https://www.thepolyglotdeveloper.com')">Share on Mail</button>
+</ion-content>
