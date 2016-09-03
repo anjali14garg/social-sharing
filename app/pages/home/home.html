@@ -1,10 +1,13 @@
-<ion-navbar *navbar>
+<ion-header>
+  <ion-navbar>
     <ion-title>
-        Home
+     Home
     </ion-title>
-</ion-navbar>
- 
+  </ion-navbar>
+</ion-header>
 <ion-content class="home">
-    <button default (click)="share('Hello World', 'Attention', null, 'https://www.thepolyglotdeveloper.com')">Share</button>
-    <button default (click)="shareViaEmail('Hello World', null, 'https://www.thepolyglotdeveloper.com')">Share on Mail</button>
+    <button full (click)="share('Hello World', 'Attention', null, 'https://anjaligargsite.wordpress.com/2016/08/27/how-to-install-two-versions-on-system')">Share</button>
+    <button full (click)="shareViaEmail('Hello World', null, 'garg14anjali@gmail.com')">Share on Mail</button>
+    <button full (click)="shareViaFacebook('Hello World', null, 'https://anjaligargsite.wordpress.com/2016/08/27/how-to-install-two-versions-on-system')">Share on Facebook</button>
+    <button full (click)="shareViaWhatsApp('Hello World', null, 'https://anjaligargsite.wordpress.com/2016/08/27/how-to-install-two-versions-on-system')">Share on Whatsapp</button>
 </ion-content>
